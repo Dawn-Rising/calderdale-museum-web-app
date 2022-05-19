@@ -1,0 +1,87 @@
+:root {
+  --main-bg-color: #edd068;
+  --primary: #f9f9f9;
+  --active: #545775;
+  --hover: #767aa2;
+  --font: #f9f9f9;
+  --alt-font: #3b444b;
+  
+}
+
+:alt {
+  --main-bg-color: brown;
+}
+
+div.footer{
+  position: fixed;
+  width: 100%;
+  bottom: 10px;
+  background: rgba(0, 0, 0, 0.8);
+} 
+
+li.nav-item{
+  width:23.3%;
+  text-align: center;
+}
+
+li.nav-item-large{
+  width:30%;
+  text-align: center;
+}
+
+.title{
+ position: static; 
+}
+
+h1{
+  font-size:300%;
+  font-weight: 900;
+}
+
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color:var(--font);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-color: var(--main-bg-color);
+  font-family:Times, Times New Roman, serif;
+  font-weight: 700;
+  height: 100%;
+  width: 100%;
+}
+
+.title{
+  top:0;
+  position: fixed;
+  max-resolution:0px;
+  padding:0px;
+  width:100%;
+  background: rgba(209, 213, 218, 0.9);
+  color: var(--alt-font);
+  font-size: 3vw;
+}
+
+.background-main{
+  background: rgba(112, 87, 53, 0.9);
+  width:100%;
+}
+
+.shadow {
+  border-radius: 5%;
+}
+
+
+.active-button {
+  background-color: var(--active);
+  color: var(--font);
+}
+
+.button:hover{
+  background-color: var(--hover);
+  color: var(--font);
+}

@@ -1,0 +1,5 @@
+use 
+https://www.qrcode-monkey.com/
+for qr code making
+
+when making a new object page copy the objectName1.html change
